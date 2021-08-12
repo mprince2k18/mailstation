@@ -1,0 +1,26 @@
+{
+    "name": "mprince/mailstation",
+    "description": "mail integration for laravel",
+    "keywords": ["mail","mailer","email", "mailstation", "hub"],
+    "version": "v1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Prince",
+            "email": "mprince2k16@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "~4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MrVokia\\MailHub\\": "src/MailHub/"
+        }
+    },
+    "minimum-stability": "dev"
+}
